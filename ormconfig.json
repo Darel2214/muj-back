@@ -1,0 +1,9 @@
+{
+  "type": "postgres",
+  "url": "postgresql://postgres:30082000@localhost:5432/mujersegura?schema=public",
+  "entities": [
+    "dist/**/*.entity{.ts,.js}"
+  ],
+  "synchronize": true,
+  "extra": {}
+}
